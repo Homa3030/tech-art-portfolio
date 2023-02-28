@@ -45,8 +45,13 @@ Shader "Custom/Circle Of Nth Power"
 
             float4 PS (VertexOutput IN) : SV_TARGET
             {
+                // moving origin to the center
                 float2 uv = 2 * IN.UV - 1;
+                
+                // calculating the distance
                 float d = pow(pow(abs(uv.x), _Power) + pow(abs(uv.y), _Power), 1/_Power);
+                
+                //using smoothstep to smooth the borders of the shape
                 return smoothstep(1, 0.85, d);
             }
             

@@ -54,19 +54,22 @@ Shader "Custom/Blinn-Phong Texture Rotation"
 
                 const float time = _Time.y;
                 float2 uv = IN.UV;
-                
+
+                //rotating uv using rotation matrix
                 uv = uv - 0.5;
                 const float angle = _RotationVelocity * time;
                 const float2x2 rotation_matrix = float2x2(cos(angle), -sin(angle), sin(angle), cos(angle));
                 uv = mul(uv, rotation_matrix) + 0.5;
                 OUT.UV = uv * _Texture_ST.xy + _Texture_ST.zw;
+                
                 return OUT;
             }
 
             float4 PS (VertexOutput IN) : SV_TARGET
             {
                 float3 normalWS = normalize(IN.normalWS);
-                
+
+                //bling-phong shading model
                 Light directionalLight = GetMainLight();
                 float3 viewDir = GetWorldSpaceNormalizeViewDir(IN.positionWS);
                 float3 halfVector = normalize(viewDir + directionalLight.direction);

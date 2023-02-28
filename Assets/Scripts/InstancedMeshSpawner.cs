@@ -16,6 +16,8 @@ public class InstancedMeshSpawner : MonoBehaviour
         _matrices = new List<Matrix4x4>();
         var colors = new List<Vector4>();
 
+        //filling the color and TRS matrices
+        //rotation, scale and color are random but position is aligned to a grid 
         for (int i = 0; i < 10; i++)
         {
             for (int j = 0; j < 100; j++)

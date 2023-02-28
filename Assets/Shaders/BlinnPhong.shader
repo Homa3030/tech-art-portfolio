@@ -47,6 +47,7 @@ Shader "Custom/Blinn-Phong"
                 
                 OUT.positionCS = TransformObjectToHClip(IN.positionOS);
                 OUT.positionWS = TransformObjectToWorld(IN.positionOS);
+                
                 OUT.UV = IN.UV * _Texture_ST.xy + _Texture_ST.zw;
 
                 OUT.normalWS = TransformObjectToWorldNormal(IN.normalOS);
@@ -56,7 +57,8 @@ Shader "Custom/Blinn-Phong"
             float4 PS (VertexOutput IN) : SV_TARGET
             {
                 float3 normalWS = normalize(IN.normalWS);
-                
+
+                //bling-phong shading model
                 Light directionalLight = GetMainLight();
                 float3 viewDir = GetWorldSpaceNormalizeViewDir(IN.positionWS);
                 float3 halfVector = normalize(viewDir + directionalLight.direction);
