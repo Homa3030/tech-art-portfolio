@@ -33,3 +33,12 @@ DrawCalls:
 
 ![Instancing](Screenshots/Instancing_DrawCall1.jpg)
 ![Instancing](Screenshots/Instancing_DrawCall2.jpg)
+
+## Toon Shader
+### Features
+- Albedo: Color and Texture (configurable shadow color and intensity)
+- Texture: Tilling and Offset
+- Diffuse (configurable smoothness and threshold)
+- Specular (configurable smoothness and threshold)
+
+![ToonShader](Screenshots/ToonShader.gif)
