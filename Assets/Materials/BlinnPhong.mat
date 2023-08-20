@@ -25,13 +25,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Texture:
         m_Texture: {fileID: 2800000, guid: 3794828d41c0ed74fb89b5c7eb691ac9, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Amplitude: 0
     - _Frequency: 8
     - _RotationFrequency: 1
-    - _SpecularExponent: 10
+    - _SpecularExponent: 20
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.9348426, g: 0, b: 1, a: 1}
   m_BuildTextureStacks: []
