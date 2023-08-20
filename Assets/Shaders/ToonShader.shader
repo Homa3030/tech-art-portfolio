@@ -64,9 +64,10 @@ Shader "Custom/Toon Shader"
             VertexOutput VS (VertexInput IN)
             {
                 VertexOutput OUT;
-                
-                OUT.positionCS = TransformObjectToHClip(IN.positionOS);
-                OUT.positionWS = TransformObjectToWorld(IN.positionOS);
+
+                const float3 position_ws = TransformObjectToWorld(IN.positionOS);
+                OUT.positionWS = position_ws;
+                OUT.positionCS = TransformWorldToHClip(position_ws);
                 
                 OUT.UV = IN.UV * _Texture_ST.xy + _Texture_ST.zw;
 
