@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Blinn-Phong With Lighting And Shadows 1
+  m_Name: BlinnPhongWithLightingShadowsTransparency2
   m_Shader: {fileID: 4800000, guid: 9744e9d067786a04c9f9d657cd7ad83d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -16,8 +16,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -25,12 +26,19 @@ Material:
     m_TexEnvs:
     - _Texture:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Cull: 2
+    - _Cutoff: 0.506
+    - _DestBlend: 0
+    - _FaceRenderingMode: 0
     - _Smoothness: 0.4
+    - _SourceBlend: 1
     - _SpecularExponent: 1
+    - _SurfaceType: 0
+    - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 0.6431373}
+    - _Color: {r: 1, g: 0.0670706, b: 0, a: 1}
   m_BuildTextureStacks: []
