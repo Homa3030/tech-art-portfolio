@@ -67,7 +67,7 @@ Material:
     - _FaceRenderingMode: 0
     - _Metallic: 1
     - _NormalStrength: 1
-    - _ParallaxStrength: 0.064
+    - _ParallaxStrength: 0.065
     - _Smoothness: 0.632
     - _SourceBlend: 1
     - _SpecularExponent: 0.341
