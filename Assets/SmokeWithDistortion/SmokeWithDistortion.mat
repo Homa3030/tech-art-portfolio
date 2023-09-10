@@ -33,7 +33,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionPower: 0.005
+    - _DistortionPower: 0.0055
     - _DistortionScale: 0.5
     - _DistortionSpeed: -0.001
     m_Colors:
