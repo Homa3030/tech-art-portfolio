@@ -1,4 +1,4 @@
-Shader "Custom/Blinn-Phong With Lighting Shadows Transparency" 
+Shader "Custom/Blinn-Phong With Shadows And Transparency" 
 {
     Properties
     {

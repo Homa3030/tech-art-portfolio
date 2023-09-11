@@ -20,9 +20,8 @@
 
 ![Bling-Phong texture rotation](./Screenshots/TextureRotation.gif "Texture rotation")
 
-## Bling Phong With Lighting, Shadows and Transparency
+## Bling Phong With Shadows and Transparency
 ### Features in addition to default Blinn Phong shader:
-- Lighting
 - Shadows (receive and cast)
 - Transparency (blend + cutout)
 - Front, Back, Double sided rendering modes
@@ -31,9 +30,9 @@
 ![Blinn-Phong Transparent3](./Screenshots/BlinnPhongTransparent1.gif "Cutout transparency")
 ![Blinn-Phong Transparent3](./Screenshots/BlinnPhongTransparent2.gif "Blend transparency")
 
-##PBR
+## PBR
 ### Features:
-- Albedo, Normal, Metallic, Smoothness, Specular, Emission maps supporting
+- Albedo, Normal, Metallic, Smoothness, Specular, Emission maps are supported
 - Parallax mapping
 - Specular/Metallic setup workflow
 - Texture Channel Packing
@@ -43,6 +42,17 @@
 ![PBR4](./Screenshots/PBR4.png)
 ![PBR1](./Screenshots/PBR1.png)
 ![PBR2](./Screenshots/PBR2.png)
+
+## Channel Packer Editor
+### Feature:
+- Packs several masks(up to 4) into one RGBA mask.
+
+Example: Metallic and Smoothness masks are packed into one mask
+![ChannelPacker1](./Screenshots/ChannelPacker1.png "Editor")
+![ChannelPacker3](./Screenshots/ChannelPacker3.png "Red Channel" )
+![ChannelPacker2](./Screenshots/ChannelPacker2.png "Green Channel")
+![ChannelPacker4](./Screenshots/ChannelPacker4.png "Blue Channel")
+![ChannelPacker5](./Screenshots/ChannelPacker5.png "RGB Channel")
 
 ## Toon Shader
 ### Features

@@ -106,7 +106,7 @@ namespace Lit.Editor
                 packedPixels[i] = color;
             }
 
-            var texture = new Texture2D(_r.width, _g.height, TextureFormat.RG16, false);
+            var texture = new Texture2D(_r.width, _g.height, _a == null ? TextureFormat.RGB24 : TextureFormat.RGBA32, false);
             texture.SetPixels(packedPixels);
             texture.Apply();
 

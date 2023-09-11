@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlinnPhongWithLightingShadowsTransparency2
+  m_Name: BlinnPhongWithShadowsAndTransparency2
   m_Shader: {fileID: 4800000, guid: 9744e9d067786a04c9f9d657cd7ad83d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
