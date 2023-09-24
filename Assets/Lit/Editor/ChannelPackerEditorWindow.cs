@@ -28,20 +28,20 @@ namespace Lit.Editor
                 EditorGUILayout.HelpBox(_error, MessageType.Error);
             }
 
-            //try
-            //{
+            try
+            {
                 if (GUILayout.Button("Generate"))
                 {
                     Generate();
                     _error = null;
                 }
-            //}
-            // catch (Exception e)
-            // {
-            //     Debug.LogError(e.Message);
-            //     _error = e.Message;
-            //     throw;
-            // }
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e.Message);
+                _error = e.Message;
+                throw;
+            }
         }
 
         private void Generate()
