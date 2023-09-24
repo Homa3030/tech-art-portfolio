@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2f5a988d5a1c56d4ebd1095845b83256
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _RockTexture: {instanceID: 0}
+  - _RockNormalMap: {instanceID: 0}
+  - _GrassTexture: {instanceID: 0}
+  - _GrassNormalMap: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -85,3 +85,19 @@ DrawCalls:
 - Distortion uses opaque texture
 
 ![Smoke With Distortion](Screenshots/SmokeWithDistortion.gif)
+
+## Triplanar Mapping
+### Features:
+- Albedo blending 
+- Normal map blending (UDN)
+- Configurable blend sharpness
+- Normal strength (per texture) 
+
+![Triplanar Shader](Screenshots/TriplanarShader.gif)
+
+## Triplanar Grass Effect (Shader Graph)
+### Features:
+- Normal direction-based blending between rock and grass textures
+- Configurable threshold and smoothness of the rock to grass transition
+
+![Triplanar Grass Effect](Screenshots/TriplanarGrassEffect.gif)
