@@ -70,7 +70,7 @@ Material:
     - _NormalStrengthSide: 1
     - _NormalStrengthTop: 1
     - _RockNormalStrength: 0.96
-    - _Sharpness: 7.2
+    - _Sharpness: 7.6
     m_Colors:
     - _ColorFront: {r: 1, g: 1, b: 1, a: 1}
     - _ColorSide: {r: 1, g: 1, b: 1, a: 1}

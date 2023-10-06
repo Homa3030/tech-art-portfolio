@@ -101,3 +101,10 @@ DrawCalls:
 - Configurable threshold and smoothness of the rock to grass transition
 
 ![Triplanar Grass Effect](Screenshots/TriplanarGrassEffect.gif)
+
+## Outline
+### Features:
+- Implemented as URP Render Feature
+- Sobel filter for color, depth and normals
+
+![Outline](Screenshots/Outline.png)

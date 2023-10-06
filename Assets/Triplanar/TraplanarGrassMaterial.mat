@@ -66,9 +66,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Gradient_Smoothness: 2.4
-    - _Grass_Height: 7.45
-    - _Grass_Threshold: 0.686
+    - _Gradient_Smoothness: 1.01
+    - _Grass_Height: 0.77
+    - _Grass_Threshold: 0.437
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Threshold: 0.597
