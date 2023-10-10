@@ -108,3 +108,10 @@ DrawCalls:
 - Sobel filter for color, depth and normals
 
 ![Outline](Screenshots/Outline.png)
+
+## Procedural Gradient Skybox With Clouds
+### Features:
+- Implemented in Shader Graph
+- Clouds implemented using the noise texture
+
+![Skybox](Screenshots/ProceduralSkyboxWithClouds.gif)
