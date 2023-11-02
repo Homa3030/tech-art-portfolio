@@ -43,7 +43,7 @@ Material:
     m_Floats:
     - _Amplitude: 0.15
     - _Boolean: 0
-    - _Branch_Curvature: 1
+    - _Branch_Curvature: 0
     - _CURVATURE: 0
     - _NoiseMultiplier: 5
     - _PivotNormals: 1
