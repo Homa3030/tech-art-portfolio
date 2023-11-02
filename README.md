@@ -151,6 +151,7 @@ DrawCalls:
 - Asset post processor that bakes pivot of each branch into the vertex color and merges them into one mesh.
 - Custom normals (based on the pivots) are used for the leaves illumination.
 - Setting branch curvature.
+- Game object swaying. 
 - Implemented in Shader Graph.
 
 ![TreeAnimation](Screenshots/TreeAnimationShader.gif)
