@@ -115,3 +115,12 @@ DrawCalls:
 - Clouds implemented using the noise texture
 
 ![Skybox](Screenshots/ProceduralSkyboxWithClouds.gif)
+
+## Tree Animation Shader (Pivot Baking)
+### Features:
+- Asset post processor that bakes pivot of each branch into the vertex color and merges them into one mesh.
+- Custom normals (based on the pivots) are used for the leaves illumination.
+- Setting branch curvature.
+- Implemented in Shader Graph.
+
+![TreeAnimation](Screenshots/TreeAnimationShader.gif)

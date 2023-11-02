@@ -41,23 +41,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Distance_Fade_Power: 0.61
+    - _Distance_Fade_Power: 1.01
     - _EarthBlendPower: 1
-    - _Earth_Blend_Power: 1
+    - _Earth_Blend_Power: 0.45
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 0.59
+    - _Scale: 0.65
     - _SkyBlendPower: 1
-    - _Sky_Blend_Power: 1
+    - _Sky_Blend_Power: 0.48
     m_Colors:
     - _Animation_Speed: {r: 0.1, g: 0.1, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.68293875, g: 0.92668545, b: 0.9716981, a: 1}
     - _EarthColor: {r: 0.07756319, g: 0.7830189, b: 0.1431154, a: 1}
-    - _Earth_Color: {r: 0.07756319, g: 0.7830189, b: 0.1431154, a: 1}
+    - _Earth_Color: {r: 0.078431346, g: 0.41471735, b: 0.78431374, a: 1}
     - _HorizonColor: {r: 0.8159043, g: 0.8962264, b: 0.8801815, a: 1}
-    - _Horizon_Color: {r: 0.8159043, g: 0.8962264, b: 0.8801815, a: 1}
+    - _Horizon_Color: {r: 0.8156863, g: 0.8354802, b: 0.8980392, a: 1}
     - _SkyColor: {r: 0.13657, g: 0.7637407, b: 0.8773585, a: 1}
-    - _Sky_Color: {r: 0.13657, g: 0.7637407, b: 0.8773585, a: 1}
+    - _Sky_Color: {r: 0.13725491, g: 0.57748395, b: 0.8784314, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2592515798123663701
 MonoBehaviour:

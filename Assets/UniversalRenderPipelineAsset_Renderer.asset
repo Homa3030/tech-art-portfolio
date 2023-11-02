@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81283615adc435d8dced54f58e0e6ca, type: 3}
   m_Name: OutlinesRenderFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   Settings:
     ColorThreshold: 1.5
     DepthThreshold: 90
