@@ -117,7 +117,8 @@ DrawCalls:
 - Albedo blending 
 - Normal map blending (UDN)
 - Configurable blend sharpness
-- Normal strength (per texture) 
+- Normal strength (per texture)
+- World position is used as a UV and world space axes as a tangent/bitangent/normal.
 
 ![Triplanar Shader](Screenshots/TriplanarShader.gif)
 
